@@ -188,42 +188,52 @@ li {
 #gnav li {
   font-family: "Open sans", sans-serif;
   font-size: 16px;
-  padding: 0 24px;
+  padding: 0px;
   letter-spacing: .05em;
 }
 
 #gnav li a {
   position: relative;
   display: inline-block;
-  padding: 20px 0;
+  padding: 20px;
   -webkit-transition: .3s;
   -moz-transition: .3s;
   -ms-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  color: #333;
+  color: #444;
 }
 
 #gnav li a:hover {
-  opacity: 1;
+  border-bottom: 0px; color: #fff;
 }
+#gnav li:first-child a{ border-left: 10px solid #3498db; }
+#gnav li:nth-child(2) a{ border-left: 10px solid #ffd071; }
+#gnav li:nth-child(3) a{ border-left: 10px solid #f0776c; }
+#gnav li:nth-child(4) a{ border-left: 10px solid #3498db; }
+#gnav li:last-child a{ border-left: 10px solid #1abc9c; }
 
 #gnav li a::after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 3px;
   content: "";
-  transition: .3s;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #333;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  z-index: -1;
 }
 
 #gnav li a:hover::after {
   width: 100%;
 }
+
+#gnav li:first-child a:after{ background: #3498db; }
+#gnav li:nth-child(2) a:after{ background: #ffd071; }
+#gnav li:nth-child(3) a:after{ background: #f0776c; }
+#gnav li:nth-child(4) a:after{ background: #3498db; }
+#gnav li:last-child a:after{ background: #1abc9c; }
 
 /*--------------------------------
  Card
@@ -548,11 +558,29 @@ li {
   }
 
   #gnav li a:hover {
-    opacity: 1;
+    border-bottom: 0px; color: #fff;
   }
 
+  #gnav li:first-child a{ border-left: 10px solid #3498db; }
+  #gnav li:nth-child(2) a{ border-left: 10px solid #ffd071; }
+  #gnav li:nth-child(3) a{ border-left: 10px solid #f0776c; }
+  #gnav li:nth-child(4) a{ border-left: 10px solid #3498db; }
+  #gnav li:last-child a{ border-left: 10px solid #1abc9c; }
+
   #gnav li a::after {
-    display: none;
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    z-index: -1;
+  }
+
+  #gnav li a:hover::after {
+    width: 100%;
   }
 
   .section {
