@@ -1,6 +1,3 @@
-img {
-  pointer-events: none;
-}
 
 div.elephant img {
     width: 500px;
@@ -9,6 +6,19 @@ div.elephant img {
     top: 50%;
     bottom: 0%;
     position: absolute;
+    overflow: hidden;
+    -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+div.elephant img:hover {
+  -webkit-transform: translate(10px, 0);
+-moz-transform: translate(10px, 0);
+-o-transform: translate(10px, 0);
+transform: translate(10px, 0);
 }
 
 div.moon img {
@@ -18,6 +28,21 @@ div.moon img {
     left: 60%;
     bottom: 0%;
     position: absolute;
+    overflow: hidden;
+    -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+  filter: grayscale(0);
+}
+
+div.moon img:hover {
+  -webkit-transform: translate(0, -10px);
+-moz-transform: translate(0, -10px);
+-o-transform: translate(0, -10px);
+transform: translate(0, -10px);
+filter: grayscale(25%);
 }
 
 @media screen and (max-width: 767px) {
