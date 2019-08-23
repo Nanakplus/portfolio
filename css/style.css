@@ -12,7 +12,8 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #333;
+  color: #fff;
+  background-color: rgb(50, 50, 50);
 }
 
 a {
@@ -112,7 +113,7 @@ transform: translate(0, 3px);
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: rgb(100, 100, 100);
 }
 
 .section .inner {
@@ -163,8 +164,10 @@ transform: translate(0, 3px);
 #header .logo-title {
   font-family: "MS Serif", sans-serif;
   font-size: 70px;
+  z-index: 2;
   line-height: 1;
   letter-spacing: .2em;
+  position: relative
 }
 
 #header .logo-desc {
@@ -181,7 +184,7 @@ transform: translate(0, 3px);
 ---------------------------------*/
 
 #gnav {
-  background-color: #fff;
+  background-color: #252525;
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
@@ -218,7 +221,7 @@ transform: translate(0, 3px);
   -ms-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  color: #444;
+  color: #ffffff;
 }
 
 #gnav li a:hover {

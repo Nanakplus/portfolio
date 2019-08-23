@@ -1,0 +1,35 @@
+div.elephant img {
+    width: 500px;
+    right: 70%;
+    left: auto;
+    top: 50%;
+    bottom: 0%;
+    position: absolute;
+}
+
+div.moon img {
+    width: 700px;
+    right: 5%;
+    top: -15%;
+    left: 67%;
+    bottom: 0%;
+    position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+
+  div.elephant img {
+      width: 50%;
+      right: 55%;
+      top: 60%;
+      position: absolute;
+  }
+
+  div.moon img {
+      width: 50%;
+      right: 5%;
+      top: 5%;
+      left: 65%;
+      bottom: 0%;
+      position: absolute;
+  }
