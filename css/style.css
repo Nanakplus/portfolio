@@ -70,7 +70,7 @@ transform: translate(0, 3px);
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #ccc;
+  background-color: #393939;
 }
 
 .hover-action-01 {
@@ -113,7 +113,7 @@ transform: translate(0, 3px);
 }
 
 .section:nth-of-type(odd) {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(75, 75, 75);
 }
 
 .section .inner {
@@ -505,7 +505,7 @@ transform: translate(0, 3px);
 #footer .copyright {
   font-size: 10px;
   text-align: center;
-  color: #8c8c8c;
+  color: #ececec;
 }
 
 /*media Queries 767
