@@ -1,3 +1,7 @@
+img {
+  pointer-events: none;
+}
+
 div.elephant img {
     width: 500px;
     right: 70%;
@@ -29,7 +33,7 @@ div.moon img {
       width: 50%;
       right: 5%;
       top: 5%;
-      left: 65%;
+      left: 50%;
       bottom: 0%;
       position: absolute;
   }
