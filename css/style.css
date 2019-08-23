@@ -35,6 +35,21 @@ li {
   list-style: none;
 }
 
+li img{
+  -webkit-transition: .4s;
+-moz-transition: .4s;
+-o-transition: .4s;
+transition: .4s;
+}
+
+li img:hover {
+  -webkit-transform: translate(0, 3px);
+-moz-transform: translate(0, 3px);
+-o-transform: translate(0, 3px);
+transform: translate(0, 3px);
+}
+
+
 .text-bold {
   font-weight: bold;
 }
