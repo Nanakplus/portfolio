@@ -313,7 +313,7 @@ transform: translate(0, 3px);
   flex-basis: 31%;
   content: "";
 }
-
+#works .card:nth-child(3n+1):nth-last-child(-n+3),
 #works .card:nth-child(3n+1):nth-last-child(-n+3),
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
