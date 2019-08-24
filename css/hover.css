@@ -89,3 +89,23 @@ filter: grayscale(25%);
       bottom: 0%;
       position: absolute;
   }
+
+  .btn-shine {
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 25px;
+    left: 37.5px;
+    width: 75px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
+  }
