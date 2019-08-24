@@ -11,7 +11,7 @@ $(function () {
   var offset = $nav.offset();
   var navHeight = $nav.innerHeight();
   var headerInner = $('#header .inner');
-
+  
   //ページ内スクロール
   $('a[href^="#"]').on('click', function () {
     var speed = 300;

@@ -323,7 +323,10 @@ transform: translate(0, 3px);
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
-
+/* このコードでズーム後の画像の保存の禁止 */
+.pswp__item {
+  pointer-events: none;
+}
 /*--------------------------------
  FEATURE
 ---------------------------------*/
