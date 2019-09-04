@@ -117,7 +117,7 @@ transform: translate(0, 3px);
 }
 
 .section:nth-of-type(odd) {
-  background-color:#f29a33;
+  background-color:#1d4494;
 }
 
 .section .inner {

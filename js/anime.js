@@ -1,5 +1,5 @@
 bubbly({
-    colorStart: "#3218c2",
+    colorStart: "#2e3cb5",
     colorStop: "#000000",
     blur: 1,
     bubbles: 30,
