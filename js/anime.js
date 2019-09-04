@@ -1,6 +1,6 @@
 bubbly({
-    colorStart: "#252525",
-    colorStop: "#111111",
+    colorStart: "#3218c2",
+    colorStop: "#000000",
     blur: 1,
     bubbles: 30,
     compose: "source-over",

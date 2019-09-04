@@ -74,7 +74,7 @@ transform: translate(0, 3px);
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #393939;
+  background-color: #00084f;
 }
 
 .hover-action-01 {
@@ -117,7 +117,7 @@ transform: translate(0, 3px);
 }
 
 .section:nth-of-type(odd) {
-  background-color: rgb(50, 50, 50);
+  background-color:#f29a33;
 }
 
 .section .inner {
@@ -188,7 +188,7 @@ transform: translate(0, 3px);
 ---------------------------------*/
 
 #gnav {
-  background-color: #252525;
+  background-color: #101010;
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
@@ -506,7 +506,7 @@ transform: translate(0, 3px);
 ---------------------------------*/
 
 #footer {
-  background-color: #1d1d1d;
+  background-color: #000000;
 }
 
 #footer .inner {
