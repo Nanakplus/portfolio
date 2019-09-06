@@ -16,7 +16,7 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #fff;
+  color: #000000;
   background-color: rgb(50, 50, 50);
 }
 
@@ -74,7 +74,8 @@ transform: translate(0, 3px);
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #00084f;
+  color: #fff;
+  background-color: #2f2f2f;
 }
 
 .hover-action-01 {
@@ -117,7 +118,7 @@ transform: translate(0, 3px);
 }
 
 .section:nth-of-type(odd) {
-  background-color:#1d4494;
+  background-color:#F8F8F8;
 }
 
 .section .inner {
