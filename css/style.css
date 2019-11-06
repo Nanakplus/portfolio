@@ -375,7 +375,6 @@ transform: translate(0, 3px);
 
 #about .section-image img {
   margin: 0 auto;
-  border-radius: 50%;
   box-shadow: 0 0 25px 0 #d9d9d9;
   pointer-events: none;
 }
