@@ -383,6 +383,10 @@ transform: translate(0, 3px);
   flex-basis: 62%;
 }
 
+#about .section-text {
+  font-family: 'American Typewriter','Meiryo UI','ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;"
+}
+
 /*--------------------------------
  SKILL
 ---------------------------------*/
